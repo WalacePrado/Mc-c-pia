@@ -1,0 +1,89 @@
+.footer {
+    background-color: #FFBC0D;
+    color: rgb(23, 23, 23);
+    padding: 2rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    flex: 0.5;
+    margin-right: 2rem;
+}
+
+.footer-logo-img {
+    max-height: 123px;
+}
+
+.footer-logo-mc {
+
+    max-height: 35px;
+}
+
+.footer-text {
+    flex: 2;
+    text-align: left;
+    margin: 0 2rem;
+}
+
+.footer-button {
+    flex: 0.7;
+    margin-left: 2rem;
+}
+
+.btn-footer {
+    background-color: #ffffff;
+    color: rgb(17, 17, 17);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.btn-footer:hover {
+    background-color: #ebebeb;
+}
+
+.store-badge {
+    max-height: 40px;
+    margin-left: 1rem;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icon {
+    font-size: 24px;
+    color: #333;
+}
+
+.social-icon:hover {
+    color: #000;
+}
+
+.footer-link {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    color: #333;
+    text-align: right;
+    margin: 0;
+}

@@ -1,0 +1,54 @@
+.banner-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.banner-content {
+  position: absolute;
+  right: 150px;
+  bottom: 150px;
+  color: rgb(29, 29, 29);
+  text-align: right;
+}
+
+.banner-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.banner-content p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.banner-button {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+.cards-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+  max-width: 100%;
+}

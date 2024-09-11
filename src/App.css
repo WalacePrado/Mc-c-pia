@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-item img {
+  max-height: 400px;
+}
+
+.carousel-caption h3 {
+  font-size: 2rem;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+}
